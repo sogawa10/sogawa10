@@ -22,7 +22,7 @@
 |---|---|---|
 | **[VegeTASK](https://github.com/sogawa10/hackathon)**| 勉強を「野菜を育てること」に見立てたタスク管理アプリ。タスクを毎日の小タスクに分割し、こなすと野菜が育ち、サボると枯れる。 [サイトを公開中!](https://www.vegetask.net/) | React / TypeScript / Go / Docker / GitHub Actions |
 | **[shogi_ai](https://github.com/sogawa10/shogi_ai)** | 既存エンジンを使わず、ルール処理からαβ探索まで自前実装した将棋AI。二歩・打ち歩詰め・千日手・入玉宣言法まで対応し、APIとして提供 | Python / FastAPI / PostgreSQL |
-| **[shogi_frontend](https://github.com/sogawa10/shogi_frontend)** | 上の将棋AIと対局できるWebサイト。ログイン、外部AIの登録、人 vs AI・AI vs AI 対局 | React / TypeScript / Vite |
+| **[shogi_frontend](https://github.com/sogawa10/shogi_frontend)** | 上の将棋AIと対局できるWebサイト。外部の将棋AIのAPIを登録すれば、対局できる。 | React / TypeScript / Vite |
 
 <!-- ■ 技術スタック -->
 <a id="stack"></a>
