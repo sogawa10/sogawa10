@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220">
+  <!-- ダークモード用ヘッダー: 四辺を透明にフェードさせて背景になじませる -->
+  <defs>
+    <!-- 横方向の木目色グラデーション（将棋盤の榧（かや）っぽい茶） -->
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#3a2512"/>
+      <stop offset="0.5" stop-color="#6b4422"/>
+      <stop offset="1"   stop-color="#3a2512"/>
+    </linearGradient>
+    <!-- 上下のフェード -->
+    <linearGradient id="fadeV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="0.6"  stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="1"    stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- 左右のフェード -->
+    <linearGradient id="fadeH" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="0.75" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1"   stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="mV"><rect width="1200" height="220" fill="url(#fadeV)"/></mask>
+    <mask id="mH"><rect width="1200" height="220" fill="url(#fadeH)"/></mask>
+    <!-- 波線用: 左右だけフェード -->
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#d9a066" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#d9a066" stop-opacity="0.55"/>
+      <stop offset="1"   stop-color="#d9a066" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 帯（四辺フェード） -->
+  <g mask="url(#mH)">
+    <rect width="1200" height="220" fill="url(#wood)" mask="url(#mV)"/>
+  </g>
+
+  <!-- 波線（ライトモードの waving を細い線で表現） -->
+  <path d="M0 160 C 200 130, 400 190, 600 160 S 1000 130, 1200 160"
+        fill="none" stroke="url(#line)" stroke-width="2"/>
+  <path d="M0 172 C 220 150, 420 200, 620 172 S 1000 148, 1200 174"
+        fill="none" stroke="url(#line)" stroke-width="1" opacity="0.6"/>
+
+  <!-- 名前 -->
+  <text x="600" y="112" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="58" font-weight="700" letter-spacing="2"
+        fill="#ecd3a6" filter="url(#glow)">sogawa10</text>
+</svg>
