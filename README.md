@@ -6,13 +6,15 @@
   - 技術を増やすときは skillicons の URL の i= にカンマ区切りで追加（dark と light の両方）。
     使えるID一覧: https://github.com/tandpfun/skill-icons#icons-list
   - <picture> の中は、上が「ダークモード用」、下の img が「ライトモード用」。
-  - ヘビと3D草の画像は .github/workflows/profile-art.yml が毎日自動で作ります。
+  - srcset の中では URL のカンマを %2C と書く（カンマは区切り文字扱いになるため）。
+  - 3D草の画像は .github/workflows/profile-art.yml が毎日自動で作ります。
 -->
 
 <!-- ■ ヘッダー -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1d0e,50:8b5a2b,100:d9a066&height=200&section=header&text=sogawa10&fontSize=56&fontColor=fff8e7&fontAlignY=42&v=2" alt="header" width="100%">
 </p>
+
 
 ---
 
@@ -33,21 +35,21 @@
 <p>
   <b>AI / 研究</b><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch&theme=dark">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cpytorch&theme=dark">
     <img src="https://skillicons.dev/icons?i=python,pytorch&theme=light" alt="AI">
   </picture>
 </p>
 <p>
   <b>フロントエンド</b><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,vue,vite,html,css&theme=dark">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cvue%2Cvite%2Chtml%2Ccss&theme=dark">
     <img src="https://skillicons.dev/icons?i=ts,js,react,vue,vite,html,css&theme=light" alt="Frontend">
   </picture>
 </p>
 <p>
   <b>バックエンド / インフラ</b><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go,fastapi,postgres,docker,nginx,linux,githubactions,git&theme=dark">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=go%2Cfastapi%2Cpostgres%2Cdocker%2Cnginx%2Clinux%2Cgithubactions%2Cgit&theme=dark">
     <img src="https://skillicons.dev/icons?i=go,fastapi,postgres,docker,nginx,linux,githubactions,git&theme=light" alt="Backend and Infra">
   </picture>
 </p>
@@ -63,15 +65,13 @@
   </picture>
 </p>
 
-<!-- ■ 草を食べるヘビ -->
+<!-- ■ ツーリング（ダーク: 夜道 / ライト: 昼の道）。絵は tools/touring.py で作り直せる -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dist/snake-dark.svg">
-    <img src="./dist/snake-light.svg" alt="snake eating contributions" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/touring-night.svg">
+    <img src="./assets/touring-day.svg" alt="バイクでツーリング中のドット絵" width="100%">
   </picture>
 </p>
-
----
 
 <!-- ■ フッター -->
 <p align="center">
