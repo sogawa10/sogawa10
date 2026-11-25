@@ -18,7 +18,7 @@
 <a id="projects"></a>
 ## ☗ 指してきた手（Projects）
 
-| | プロジェクト | ひとこと | 技術 |
+| プロジェクト | ひとこと | 技術 |
 |---|---|---|
 | **[VegeTASK](https://github.com/sogawa10/hackathon)**<br>🏆 ハッカソン優秀賞 ・ [🌐 公開中](https://www.vegetask.net/) | 勉強を「野菜を育てること」に見立てたタスク管理アプリ。タスクを毎日の小タスクに分割し、こなすと野菜が育ち、サボると枯れる。チームリーダーとして要件定義・進捗管理・レビュー・CI/CD構築・UI刷新を担当 | React / TypeScript / Go / Docker / GitHub Actions |
 | **[shogi_ai](https://github.com/sogawa10/shogi_ai)** | 既存エンジンを使わず、ルール処理からαβ探索まで自前実装した将棋AI。二歩・打ち歩詰め・千日手・入玉宣言法まで対応し、APIとして提供 | Python / FastAPI / PostgreSQL |
