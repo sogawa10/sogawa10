@@ -10,9 +10,17 @@
   - 3D草の画像は .github/workflows/profile-art.yml が毎日自動で作ります。
 -->
 
-<!-- ■ ヘッダー -->
+<!-- ■ ヘッダー（ライト） -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1d0e,50:8b5a2b,100:d9a066&height=200&section=header&text=sogawa10&fontSize=56&fontColor=fff8e7&fontAlignY=42&v=2" alt="header" width="100%">
+</p>
+
+<!-- ■ ヘッダー（ダーク） -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:120c06%2C50:3d2814%2C100:7a4f26&height=200&section=header&text=sogawa10&fontSize=56&fontColor=e8cfa0&fontAlignY=42&v=3">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1d0e,50:8b5a2b,100:d9a066&height=200&section=header&text=sogawa10&fontSize=56&fontColor=fff8e7&fontAlignY=42&v=3" alt="header" width="100%">
+  </picture>
 </p>
 
 
