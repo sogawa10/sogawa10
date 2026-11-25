@@ -72,8 +72,3 @@
     <img src="./assets/touring-day.svg" alt="バイクでツーリング中のドット絵" width="100%">
   </picture>
 </p>
-
-<!-- ■ フッター -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:d9a066,50:8b5a2b,100:2b1d0e&height=100&section=footer" alt="footer" width="100%">
-</p>
