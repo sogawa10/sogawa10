@@ -43,9 +43,5 @@
 ---
 
 <p align="center">
-  <i>まで、本日の対局。ご覧いただきありがとうございました。</i>
-</p>
-
-<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:d9a066,50:8b5a2b,100:2b1d0e&height=100&section=footer" alt="footer" width="100%">
 </p>
