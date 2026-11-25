@@ -9,8 +9,7 @@
 
 <!-- ■ ヘッダー -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1d0e,50:8b5a2b,100:d9a066&height=200&section=header&text=sogawa10&fontSize=56&fontColor=fff8e7&fontAlignY=42" alt="header" width="100%">
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1d0e,50:8b5a2b,100:d9a066&height=200&section=header&text=sogawa10&fontSize=56&fontColor=fff8e7&fontAlignY=42&v=2" alt="header" width="100%">
 
 ---
 
