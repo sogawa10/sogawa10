@@ -12,18 +12,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1d0e,50:8b5a2b,100:d9a066&height=200&section=header&text=sogawa10&fontSize=56&fontColor=fff8e7&fontAlignY=36&desc=Image%20AI%20%C3%97%20Illustration%20%C3%97%20Shogi&descSize=18&descAlignY=56" alt="header" width="100%">
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=8B5A2B&center=true&vCenter=true&width=620&lines=Protecting+illustrations+from+unauthorized+AI+training;Built+a+Shogi+AI+from+scratch+(%CE%B1%CE%B2+search);Hackathon+award+%E2%80%94+VegeTASK+is+live!" alt="typing">
-</p>
-
-<p align="center">
-  <a href="#about">自己紹介</a> ・
-  <a href="#research">研究</a> ・
-  <a href="#projects">プロジェクト</a> ・
-  <a href="#stack">技術スタック</a> ・
-  <a href="#hobby">盤外</a>
-</p>
-
 <p align="center"><b>▲7六歩 ― よろしくお願いします。</b></p>
 
 ---
