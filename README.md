@@ -112,10 +112,6 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-night.svg"><img src="./assets/contrib-day.svg" alt="Contributions" width="100%"></picture>
 </p>
 
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/activity-night.svg"><img src="./assets/activity-day.svg" alt="Recent Activity" width="100%"></picture>
-</p>
-
 <!-- ■ フッター: ツーリングのドット絵をカードの枠に収めたもの（tools/footer.py。元の絵は tools/touring.py） -->
 <p align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/footer-night.svg"><img src="./assets/footer-day.svg" alt="バイクでツーリング中のドット絵" width="100%"></picture>
