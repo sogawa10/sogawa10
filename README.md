@@ -1,4 +1,4 @@
-<!--
+﻿<!--
   ===== sogawa10 Profile README =====
   編集のしかた:
   - 各セクションは「■」で始まるコメントで区切ってあります。
@@ -17,8 +17,8 @@
 <!-- ■ ヘッダー（ダーク: 夜 / ライト: 昼） -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-night.svg">
-    <img src="./assets/header-day.svg" alt="sogawa10" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-night.svg">
+    <img src="./assets/banner-day.svg" alt="sogawa10" width="100%">
   </picture>
 </p>
 

@@ -1,4 +1,4 @@
-"""プロフィールのヘッダー（assets/header-day.svg / header-night.svg）を作る。
+﻿"""プロフィールのヘッダー（assets/header-day.svg / header-night.svg）を作る。
 
     python tools/header.py
 
@@ -130,7 +130,7 @@ def build(theme: str) -> str:
 
 if __name__ == "__main__":
     for theme in ("day", "night"):
-        path = os.path.join(ROOT, "assets", f"header-{theme}.svg")
+        path = os.path.join(ROOT, "assets", f"banner-{theme}.svg")
         with open(path, "w", encoding="utf-8") as f:
             f.write(build(theme))
         print("wrote", path)
