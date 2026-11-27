@@ -1,15 +1,13 @@
-﻿<!--
+<!--
   ===== sogawa10 Profile README =====
   編集のしかた:
   - 各セクションは「■」で始まるコメントで区切ってあります。
   - プロジェクトを増やすときは tools/cards.py の PROJECTS に1件足して、下の Projects にカードを1枚追加する。
-  - 技術を増やすときは、該当カテゴリの skillicons の URL の i= にカンマ区切りで追加（dark と light の両方）。
-    使えるID一覧: https://github.com/tandpfun/skill-icons#icons-list
-    skillicons に無い Slack は assets/icons/ の SVG を、直前の picture の閉じタグの直後に
-    （改行やスペースを挟まず）続けて並べている。左に余白入りなので、必ず行の最後に置く。
+  - 技術を増やすときは tools/stack.py の STACK の該当カテゴリに1件足して python tools/stack.py を実行し、
+    下の Tech Stack の alt にも名前を足す。アイコンは skill-icons のもの（ファイル名一覧: https://github.com/tandpfun/skill-icons/tree/main/icons）。
+    skill-icons に無い Slack は assets/icons/ の SVG を使っている。光り方（グロー・縁取り・光沢）も stack.py で調整できる。
   - <picture> の中は、上が「ダークモード用」、下の img が「ライトモード用」。
-  - srcset の中では URL のカンマを %2C と書く（カンマは区切り文字扱いになるため）。
-  - ヘッダーは tools/header.py、成果物カード・Stats・言語比率は tools/cards.py、
+  - ヘッダーは tools/header.py、Tech Stack のアイコンは tools/stack.py、成果物カード・Stats・言語比率は tools/cards.py、
     コントリビューションのグラフは tools/contrib.py で作っている。
     cards.py と contrib.py は .github/workflows/profile-art.yml が毎日自動で実行する。
 -->
@@ -37,7 +35,7 @@
   <a href="https://github.com/sogawa10/shogi_frontend"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/project-shogi_frontend-night.svg"><img src="./assets/project-shogi_frontend-day.svg" alt="shogi_frontend" width="100%"></picture></a>
 </p>
 
-<!-- ■ 技術スタック（ダーク/ライトでアイコンの色が切り替わる）
+<!-- ■ 技術スタック（tools/stack.py が作る光るアイコン。ダーク/ライトで色と光り方が切り替わる）
   並べ方のルール: どの行も「フロントエンド → バックエンド → AI・その他」の順（Webアプリの手前から奥へ）。
   Softwares は「開発するPC → サーバーのOS → その上で動くもの（Docker → Nginx → DB）」の順。 -->
 <a id="stack"></a>
@@ -46,58 +44,37 @@
 #### 💻 Programming Languages
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html%2Ccss%2Cjs%2Cts%2Cgo%2Cpython%2Cc%2Cjava%2Cmatlab&theme=dark">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,go,python,c,java,matlab&theme=light" alt="HTML, CSS, JavaScript, TypeScript, Go, Python, C, Java, MATLAB">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-languages-night.svg"><img src="./assets/stack-languages-day.svg" alt="HTML, CSS, JavaScript, TypeScript, Go, Python, C, Java, MATLAB"></picture>
 </p>
 
 #### 📚 Library & Framework
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cvue%2Cfastapi%2Cpytorch%2Copencv&theme=dark">
-    <img src="https://skillicons.dev/icons?i=react,vue,fastapi,pytorch,opencv&theme=light" alt="React, Vue, FastAPI, PyTorch, OpenCV">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-frameworks-night.svg"><img src="./assets/stack-frameworks-day.svg" alt="React, Vue, FastAPI, PyTorch, OpenCV"></picture>
 </p>
 
 #### 🌐 Platforms
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cgithub&theme=dark">
-    <img src="https://skillicons.dev/icons?i=nodejs,github&theme=light" alt="Node.js, GitHub">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-platforms-night.svg"><img src="./assets/stack-platforms-day.svg" alt="Node.js, GitHub"></picture>
 </p>
 
 #### 🛠 Tools
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=npm%2Cvite%2Canaconda%2Cgit%2Cgithubactions&theme=dark">
-    <img src="https://skillicons.dev/icons?i=npm,vite,anaconda,git,githubactions&theme=light" alt="npm, Vite, Anaconda, Git, GitHub Actions">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-tools-night.svg"><img src="./assets/stack-tools-day.svg" alt="npm, Vite, Anaconda, Git, GitHub Actions"></picture>
 </p>
 
 #### 💾 Softwares
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=windows%2Clinux%2Cubuntu%2Cdebian%2Cdocker%2Cnginx%2Cpostgres&theme=dark">
-    <img src="https://skillicons.dev/icons?i=windows,linux,ubuntu,debian,docker,nginx,postgres&theme=light" alt="Windows, Linux, Ubuntu, Debian, Docker, Nginx, PostgreSQL">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-softwares-night.svg"><img src="./assets/stack-softwares-day.svg" alt="Windows, Linux, Ubuntu, Debian, Docker, Nginx, PostgreSQL"></picture>
 </p>
 
 #### 🖥 Applications
 
 <p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=vscode%2Cnotion%2Cdiscord&theme=dark">
-    <img src="https://skillicons.dev/icons?i=vscode,notion,discord&theme=light" alt="VS Code, Notion, Discord">
-  </picture><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/icons/slack-dark.svg">
-    <img src="./assets/icons/slack-light.svg" alt="Slack">
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-apps-night.svg"><img src="./assets/stack-apps-day.svg" alt="VS Code, Notion, Discord, Slack"></picture>
 </p>
 
 <!-- ■ GitHub の数字・言語比率・コントリビューション・最近の活動（tools/cards.py と tools/contrib.py が毎日自動で作り直す） -->
