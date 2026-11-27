@@ -74,7 +74,7 @@
 #### 🖥 Applications
 
 <p>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-apps-night.svg"><img src="./assets/stack-apps-day.svg" alt="VS Code, Notion, Discord, Slack"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="./assets/stack-applications-night.svg"><img src="./assets/stack-applications-day.svg" alt="VS Code, Notion, Discord, Slack"></picture>
 </p>
 
 <!-- ■ GitHub の数字・言語比率・コントリビューション・最近の活動（tools/cards.py と tools/contrib.py が毎日自動で作り直す） -->
